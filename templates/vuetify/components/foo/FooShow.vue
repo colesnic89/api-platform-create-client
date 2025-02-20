@@ -114,8 +114,8 @@ import { storeToRefs } from "pinia";
 import Toolbar from "@/components/common/Toolbar.vue";
 import Loading from "@/components/common/Loading.vue";
 import { useMercureItem } from "@/composables/mercureItem";
-import { use{{titleUcFirst}}DeleteStore } from "@/store/{{lc}}/delete";
-import { use{{titleUcFirst}}ShowStore } from "@/store/{{lc}}/show";
+import { use{{titleUcFirst}}DeleteStore } from "@/stores/{{lc}}/delete";
+import { use{{titleUcFirst}}ShowStore } from "@/stores/{{lc}}/show";
 {{#if hasDateField}}
 import { formatDateTime } from "@/utils/date";
 {{/if}}

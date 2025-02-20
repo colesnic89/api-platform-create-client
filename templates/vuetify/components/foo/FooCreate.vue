@@ -17,7 +17,7 @@ import { storeToRefs } from "pinia";
 import Toolbar from "@/components/common/Toolbar.vue";
 import Loading from "@/components/common/Loading.vue";
 import Form from "@/components/{{lc}}/{{titleUcFirst}}Form.vue";
-import { use{{titleUcFirst}}CreateStore } from "@/store/{{lc}}/create";
+import { use{{titleUcFirst}}CreateStore } from "@/stores/{{lc}}/create";
 import { useBreadcrumb } from "@/composables/breadcrumb";
 import type { {{titleUcFirst}} } from "@/types/{{lc}}";
 

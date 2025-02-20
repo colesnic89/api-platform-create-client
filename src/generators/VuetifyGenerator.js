@@ -62,12 +62,12 @@ export default class extends BaseGenerator {
       // routes
       "router/foo.ts",
 
-      // store
-      "store/foo/create.ts",
-      "store/foo/delete.ts",
-      "store/foo/list.ts",
-      "store/foo/show.ts",
-      "store/foo/update.ts",
+      // stores
+      "stores/foo/create.ts",
+      "stores/foo/delete.ts",
+      "stores/foo/list.ts",
+      "stores/foo/show.ts",
+      "stores/foo/update.ts",
 
       // types
       "types/breadcrumb.ts",
@@ -280,12 +280,12 @@ export default {
       // routes
       "router/%s.ts",
 
-      // store
-      "store/%s/create.ts",
-      "store/%s/delete.ts",
-      "store/%s/list.ts",
-      "store/%s/show.ts",
-      "store/%s/update.ts",
+      // stores
+      "stores/%s/create.ts",
+      "stores/%s/delete.ts",
+      "stores/%s/list.ts",
+      "stores/%s/show.ts",
+      "stores/%s/update.ts",
 
       // views
       "views/%s/ViewCreate.vue",

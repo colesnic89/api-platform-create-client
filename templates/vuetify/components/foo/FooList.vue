@@ -134,8 +134,8 @@ import { ref, onBeforeUnmount{{#if parameters.length}}, Ref{{/if}} } from "vue";
 import { useI18n } from "vue-i18n";
 import { useRouter } from "vue-router";
 import { storeToRefs } from "pinia";
-import { use{{titleUcFirst}}ListStore } from "@/store/{{lc}}/list";
-import { use{{titleUcFirst}}DeleteStore } from "@/store/{{lc}}/delete";
+import { use{{titleUcFirst}}ListStore } from "@/stores/{{lc}}/list";
+import { use{{titleUcFirst}}DeleteStore } from "@/stores/{{lc}}/delete";
 import Toolbar from "@/components/common/Toolbar.vue";
 {{#if parameters.length }}
 import DataFilter from "@/components/common/DataFilter.vue";
